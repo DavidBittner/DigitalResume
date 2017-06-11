@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="colors.css">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="accord.js" type="text/javascript"></script>
+        
         <link rel="stylesheet" href="main.css">
+        <link id="colors" rel="stylesheet" href="colors.css">
+        
         <meta charset="utf-8">
     </head>
     <body>
         <div id="header" style="display: flex; justify-content: space-between">
             <h4>David Bittner<br>703-677-2716<br>bittneradave@gmail.com</h4>
-            <div id="cssControls" style="align-self: flex-end">
+            <div id="cssControls">
                 <h2>Format Controls</h2>
                 <form>
-                    <input type="checkbox" name="isPretty" checked>Make Pretty<br>
-                    <input type="checkbox" name="format">Format<br>
+                    <input id="makePretty" type="checkbox" checked>Make Pretty<br>
+                    <input id="makeInteractive" type="checkbox" checked>Interactive<br>
                 </form>
             </div>
         </div>

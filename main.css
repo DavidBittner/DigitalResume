@@ -5,11 +5,21 @@
        font-style: normal;
 }
 
+* {
+    border-style: none;
+    background-color: none;
+}
+
 body {
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
     font-family: 'overpass', sans-serif;
+}
+
+div {
+    justify-content: space-between;
+    align-content: center;
 }
 
 #header {
@@ -21,10 +31,6 @@ body {
     display: flex;
     height: 80%;
     width: 100%;
-}
-
-#left {
-    margin-right: 5px;
 }
 
 #left, #right {
@@ -55,6 +61,7 @@ list {
 }
 
 .sublist {
+    list-style-type: none;
     padding-left: 20px;
     padding-bottom: 5px;
 }
@@ -65,4 +72,8 @@ list {
 
 h2 {
     margin-bottom: 1px;
+}
+
+div.accChild {
+    display: none;
 }
