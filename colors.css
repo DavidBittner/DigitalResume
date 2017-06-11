@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(249, 249, 244);
+}
+
+#cssControls {
+    padding: 5px;
+}
+
+#center, #left, #right, #header {
+    background-color: rgb(242, 242, 237);
+    
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#header {
+    margin-bottom: 5px;
+}
+
+#center {
+    padding-left: 5px;''
+}
+
+#github, #gitlab {
+    list-style-image: url('icons/github.svg');
+}
+
+#name {
+    list-style-image: url('icons/name.svg');
+}
+
+#number {
+    list-style-image:  url('icons/phone.svg');
+}
+
+#address {
+    list-style-image: url('icons/compass.svg');
+}
+
+#email {
+    list-style-image: url('icons/email.svg');
+}
