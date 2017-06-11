@@ -48,6 +48,7 @@ list {
 }
 
 .mainlist {
+    margin-left: -30px;
     list-style-type: none;
     margin-left: 0px;
 }
@@ -62,6 +63,7 @@ list {
 
 .sublist {
     list-style-type: none;
+    margin-left: -20px;
     padding-left: 20px;
     padding-bottom: 5px;
 }
